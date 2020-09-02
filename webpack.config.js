@@ -57,7 +57,7 @@ module.exports = {
         exclude: /node_modules/,
       },
       {
-        test: /.pcss$/,
+        test: /\.pcss$/,
         use: [
           styleLoaderType,
           {
